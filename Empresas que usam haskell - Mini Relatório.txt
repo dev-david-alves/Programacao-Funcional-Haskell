@@ -1,4 +1,0 @@
-Algumas empresas que usam Haskell são: IBM, AT&T, Facebook, Microsoft, entre outras.
-
-Facebook usa Haskell para criar algorítmos que combatem spam.
-Microsoft usa Haskell principalmente nos sistemas de serialização dos seus produtos.

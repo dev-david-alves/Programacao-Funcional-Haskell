@@ -1,0 +1,29 @@
+Imperativo {
+    - Instruções passadas em forma de passo-a-passo
+    - Linhas escritas na sequência que serão executadas
+    - Usadas em projetos que não necessitarão de mudanças bruscas no curto prazo
+}
+
+Declarativo {
+    - Foca em declarar o que será resolvido, não tanto na resolução
+    - Bem mais abstrato
+    - Declarações lógicas iniciais imutáveis
+}
+
+Funcional {
+    - Usa como compontente primordial funções
+    - Problemas divididas em blocos
+    - Alocação automática de memória
+    - Usa bastante recursos de recursividade
+    - Usada quando necessita de bastante matemática na resolução do problema em questão
+}
+
+Lógico {
+    - Derivado do paradigma Declarativo
+    - Usa formas lógicas de entrada e saída
+    - Pode ser usada para provar teoremas matemáticos
+}
+
+Orientado a objetos {
+
+}
