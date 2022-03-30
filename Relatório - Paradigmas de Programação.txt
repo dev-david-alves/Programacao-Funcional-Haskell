@@ -2,12 +2,14 @@ Imperativo {
     - Instruções passadas em forma de passo-a-passo
     - Linhas escritas na sequência que serão executadas
     - Usadas em projetos que não necessitarão de mudanças bruscas no curto prazo
+    Exemplos de linguagens: Cobol, Fortran e Pascal.
 }
 
 Declarativo {
     - Foca em declarar o que será resolvido, não tanto na resolução
     - Bem mais abstrato
     - Declarações lógicas iniciais imutáveis
+    Exemplos de linguagens: QML e algumas bifurcações do SQL
 }
 
 Funcional {
@@ -16,14 +18,30 @@ Funcional {
     - Alocação automática de memória
     - Usa bastante recursos de recursividade
     - Usada quando necessita de bastante matemática na resolução do problema em questão
+    Exemplos de linguagens: Haskell e Lisp.
 }
 
 Lógico {
     - Derivado do paradigma Declarativo
     - Usa formas lógicas de entrada e saída
     - Pode ser usada para provar teoremas matemáticos
+    Exemplos de linguagens: QLISP, Mercury e Prolog.
 }
 
 Orientado a objetos {
+    - Programas mais fáceis
+    - Menos gasto
+    - Maior confiabilidade
+    - Classes e objetos
+    - Classes descrevem as coisas
+    - Métodos definem o seu comportamento
+    - Objetos tem características descritas pela classe
+    Exemplos de linguagens: Java, C++, C# e Python
+}
 
+Orientado a Eventos {
+    - Usado na maioria das vezes quando se tem recursos gráficos
+    - Atende sempre que ouver uma interação do usuário
+    - Muito usado em desevolvimento de jogos e em softwares de formulários
+    Exemplos de linguagens: linguagens usadas para criação de games
 }
