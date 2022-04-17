@@ -2,15 +2,10 @@
 splitints (<5) [2,4,6,1,1,7] == ([2,4,1,1],[6,7])
 -}
 
-splitintsOdd :: [Int] -> ([Int],[Int])
-splitintsOdd a = ([x | x <- a, odd x], [x | x <- a, even x])
-
-splitintsLessThan5 :: [Int] -> ([Int],[Int])
-splitintsLessThan5 a = ([x | x <- a, x <= 5], [x | x <- a, x > 5])
-
+splitints :: (a -> Bool) -> [a] -> ([a], [a])
+splitints function a = (filter function a, filter (not . function) a)
 
 main :: IO ()
 main = do
     a <- readLn :: IO [Int]
-    print $ splitintsOdd a
-    print $ splitintsLessThan5 a
+    print $ splitints odd a
