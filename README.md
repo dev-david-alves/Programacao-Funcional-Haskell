@@ -1,4 +1,4 @@
-# Programação Funcional
+# Programação Funcional com Haskell
 
 Este repositório diz respeito a disciplina de Programação Funcional (3° Semestre de Ciência da Computação), aqui estão todas as atividades e desafios colocados pelo professor para nos avaliar.
 
